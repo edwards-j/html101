@@ -1,0 +1,65 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+}
+
+h1, h2, h3 {
+    color: red;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+nav {
+    background-color: honeydew;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav a:hover {
+    color:  rgb(171, 212, 19);
+}
+
+nav a:active {
+    color: black;
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+}
+
+.wrapper {
+    background-color: gold;
+}
+
+.img-hero {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.flex-container {
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    background-color: fuchsia; 
+}
+
+main {
+    flex: 2;
+    margin: 1.5em;
+}
+
+aside {
+    flex: 1;
+    margin: 1.5em;
+}
