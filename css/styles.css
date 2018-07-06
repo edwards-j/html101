@@ -54,6 +54,18 @@ footer {
     background-color: whitesmoke; 
 }
 
+.flex-item {
+    background-color: gray;
+    width: 30%;
+    margin: 1em;
+    text-align: center; 
+    border: 2px solid black;
+}
+
+.flex-item img {
+    width: 100%;
+}
+
 main {
     flex: 2;
     margin: 1.5em;
