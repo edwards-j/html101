@@ -51,7 +51,19 @@ footer {
     display: flex;
     display: -webkit-flex;
     width: 100%;
-    background-color: fuchsia; 
+    background-color: whitesmoke; 
+}
+
+.flex-item {
+    background-color: gray;
+    width: 30%;
+    margin: 1em;
+    text-align: center; 
+    border: 2px solid black;
+}
+
+.flex-item img {
+    width: 100%;
 }
 
 main {
